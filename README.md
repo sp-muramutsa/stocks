@@ -35,8 +35,8 @@ The project directory is organized as follows:
    Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
-   cd your-repository
+   git clone https://github.com/sp-muramutsa/stocks.git
+   cd stocks
    ```
 
 2. **Install Dependencies**:
