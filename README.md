@@ -6,7 +6,7 @@ The Stock Visualization Dash App is an interactive web application designed to v
 
 ## Features
 
-- **Candlestick Charts**: Visualize detailed candlestick charts for selected stocks, showing open, high, low, and close prices on a minute-by-minute basis. This allows users to understand market trends and fluctuations over the day.
+- **Candlestick Charts**: Visualize detailed candlestick charts for selected stocks, showing open, high, low, and close daily prices on a hour-by-hour basis. This allows users to understand market trends and fluctuations over the day.
 
 - **Indicator Comparison**: Compare different financial indicators such as Open, High, Low, Close, Adjusted Close, and Volume for multiple stocks. This feature helps users analyze and compare the performance of various stocks against each other.
 
