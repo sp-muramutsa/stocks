@@ -1,5 +1,3 @@
-Here's an updated README file with a more detailed description of features and project structure, tailored to your provided files:
-
 ```markdown
 # Stock Visualization Dash App
 
@@ -77,20 +75,12 @@ The project directory is organized as follows:
 - **Stock Data**: Data is retrieved from Yahoo Finance using the `yfinance` library.
 - **Ticker Symbols**: Stock tickers are provided in the `company_tickers.json` file.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
-
 - [Yahoo Finance](https://finance.yahoo.com) for providing stock market data.
 - [Plotly](https://plotly.com) for the interactive charting library.
 - [Dash](https://dash.plotly.com) for creating the web application interface.
 - [Bootstrap](https://getbootstrap.com) for styling the app interface.
 
-## Contact
-
-For any questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
 ```
 
 This README provides a comprehensive overview of your project, detailing its features, structure, and setup instructions. Adjust the repository URL and contact information as needed.
