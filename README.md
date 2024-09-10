@@ -1,4 +1,3 @@
-```markdown
 # Stock Visualization Dash App
 
 ## Overview
