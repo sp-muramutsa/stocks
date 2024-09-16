@@ -69,6 +69,9 @@ The project directory is organized as follows:
 3. **Submit**:
    Click the 'Submit' button to generate and display the candlestick charts and comparison plots for the selected stocks and indicator.
 
+## Example
+
+A sample of the analysis and visualizations can be found in `stocks_dashboard_app.pdf`.
 ## Data Source
 
 - **Stock Data**: Data is retrieved from Yahoo Finance using the `yfinance` library.
