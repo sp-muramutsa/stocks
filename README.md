@@ -2,17 +2,17 @@
 
 ## Overview
 
-The Stock Visualization Dash App is an interactive web application designed to visualize and compare stock market data using Dash and Plotly. The app fetches real-time stock data from Yahoo Finance and provides users with candlestick charts and line plots to analyze various financial indicators.
+The Stock Visualization Dash App is an interactive web application built with Dash and Plotly, designed to visualize and compare stock market data. It fetches real-time stock data from Yahoo Finance and offers users detailed candlestick charts and line plots to analyze stocks with respect to key financial indicators and accross desired timeframes.
 
 ## Features
+- **Candlestick Charts**: Visualize detailed candlestick charts for selected stocks, showing open, high, low, and close daily prices on a time-by-timer basis. This allows users to understand market trends and fluctuations over time.
 
-- **Candlestick Charts**: Visualize detailed candlestick charts for selected stocks, showing open, high, low, and close daily prices on a hour-by-hour basis. This allows users to understand market trends and fluctuations over the day.
-
-- **Indicator Comparison**: Compare different financial indicators such as Open, High, Low, Close, Adjusted Close, and Volume for multiple stocks. This feature helps users analyze and compare the performance of various stocks against each other.
+- **Indicator Comparison**: Compare different financial indicators such as `Open`, `High`, `Low`, `Close`, `Adjusted Close`, and `Volume` for multiple stocks. This feature helps users analyze and compare the performance of various stocks against each other.
 
 - **Interactive UI**: The user interface includes:
-  - A dropdown menu for selecting one or more stocks from a predefined list.
+  - A dropdown menu for selecting one or more stocks from a predefined list of all stocks on the US market.
   - Radio buttons to choose the financial indicator for comparison.
+  - A calendar to choose the desired range of time for comparison.
   - A submit button to update the visualizations based on user selections.
 
 - **Dynamic Updates**: The app dynamically generates charts and plots based on user inputs. Users can interactively select stocks and indicators, and view updated charts without reloading the page.
@@ -24,10 +24,10 @@ The project directory is organized as follows:
 - **`stocks.ipynb`**: Jupyter notebook containing the code for creating and running the Dash application. This script includes:
   - Fetching real-time stock data using the `yfinance` library.
   - Creating and displaying candlestick charts with Plotly.
-  - Setting up the Dash app layout with dropdowns, radio buttons, and graphs.
+  - Setting up the Dash app layout with HTML, CSS, and Bootstrap.
   - Handling user interactions and updating the visualizations.
 
-- **`company_tickers.json`**: JSON file that provides a list of stock tickers and their corresponding titles. This file is used to populate the dropdown menu in the Dash app with available stock options.
+- **`company_tickers.json`**: JSON file that provides a list of all stock tickers and their corresponding titles. This file is used to populate the dropdown menu in the Dash app with available stock options.
 
 ## Installation and Setup
 
